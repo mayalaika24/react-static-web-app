@@ -1,0 +1,66 @@
+@font-face {
+    font-family: inter;
+    src: url('./assets/inter.ttf');
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: inter;
+    color: #deebf8;
+}
+img{
+    width: 40px;
+}
+body{
+    background: #282D35;;
+}
+.Page-container{
+    max-width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 90px;
+    background-color: #21222a;
+    align-items: center;
+    color: #fff;
+}
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+span {
+    font-weight: 700;
+    color: #61dafb;
+    font-size: 22px;
+    padding: 0 10px;
+}
+.navbar-desc{
+    font-weight: 600;
+    font-size: 16px;
+}
+main{
+    background-image: url('./assets/react-icon-large.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+h1 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    padding: 50px 27px;
+}
+ul{
+    padding: 0 70px;
+    color: #fff;
+}
+li {
+    line-height: 3;
+}
+li::marker{
+    color: #61dafb;
+    font-size: 1.5em;
+}
